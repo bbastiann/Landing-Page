@@ -8,34 +8,59 @@
 </head>
 <body>
     <div class="flex-container">
-        <div class="header">
-
-            <div class="header-links">
-                <p>Header Logo</p>
+        <div class="header flex-column add-padding" >
+            <div class="header-links flex-row">
+                <p class="logo">Header Logo</p>
                 <div class="links">
-                    <a href="">Header Link One</a>
-                    <a href="">Header Link Two</a>
-                    <a href="">Header Link Three</a>
+                    <a class="header-link-text" href="">header link one</a>
+                    <a class="header-link-text" href="">header link two</a>
+                    <a class="header-link-text" href="">header link three</a>
                 </div>
             </div>
            
-            <div class="header-info">
-                <div class="text-button">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, similique blanditiis quaerat earum harum voluptas quae asperiores excepturi optio, recusandae reprehenderit illum debitis eveniet dolorum voluptate rerum distinctio aliquid sequi!</p>
+            <div class="header-info flex-row">
+                <div class="text-button flex-column">
+                    <p class="hero-main-text">This Website is Awesome</p>
+                    <p class="hero-secondary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, similique blanditiis quaerat earum harum voluptas quae asperiores excepturi option</p>
                     <button>Sign Up</button>
                 </div>
-                <img src="" alt="">
+                <img class="header-img" src="Assets/Header-Castle.jpg" >
             </div>
 
         </div>
-        <div class="content-one">
-            <p>content-one</p>
+        <div class="content-one flex-column flex-center add-padding">
+            <p class="random-title">Some Random Information</p>
+            <Div class="flex-content-two flex-row">
+                <div class="img-text flex-column">
+                    <img class="castle-img border-img" src="Assets/pexels-rynl-studios-1749691.jpg">
+                    <p class="text">Castillo A</p>
+                </div>
+                <div class="img-text flex-column">
+                    <img class="castle-img border-img" src="Assets/pexels-rynl-studios-1749691.jpg">
+                    <p class="text">Castillo B</p>
+                </div>
+                <div class="img-text flex-column">
+                    <img class="castle-img border-img" src="Assets/pexels-rynl-studios-1749691.jpg">
+                    <p class="text">Castillo C</p>
+                </div>
+                <div class="img-text flex-column">
+                    <img class="castle-img border-img" src="Assets/pexels-rynl-studios-1749691.jpg">
+                    <p class="text">Castillo D</p>
+                </div>
+            </Div>
         </div>
-        <div class="content-two">
-            <p>content-two</p>
+        <div class="content-two flex-column flex-center add-padding">
+            <p class="motivational-text"><em>La persistencia es muy importante. No debes rendirte a menos que estés obligado a rendirte.</em></p>
+            <p class="autor-text"><strong>– Elon Musk </strong></p>
         </div>
-        <div class="footer">
-            <p>footer</p>
+        <div class="footer add-padding">
+            <div class="call-to-action flex-row flex-center">
+                <div class="flex-column">
+                    <p>TITULO GENIAL</p>
+                    <p class="footer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt provident vel inventore ratione eum natus aspernatur aut voluptates, mollitia blanditiis magni maiores perspiciatis minus cum, libero beatae, nisi accusamus id.</p>
+                </div>
+                <button class="call-to-action-btn">Sign Up</button>
+            </div>
         </div>
     </div>
 </body>

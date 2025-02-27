@@ -1,25 +1,168 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 .flex-container{
-    font-family: "Roboto";
-    
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.add-padding{
+    padding: 20px 200px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .header{
-    outline: 2px red solid;
-     display: flex;
-     flex-direction: column;
      background-color: #1f2937;
 }
 
+.border-img{
+    border-radius: 15px;
+}
+
 .header-links{
-    outline: 2px blue solid;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
-    padding-inline: 10px;
 }
+
+.header-info{
+    justify-content: center;
+    gap: 20px
+}
+
+.header-link-text,
+.hero-secondary-text{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+.text-button{
+    justify-content: space-between;
+}
+
+.hero-secondary-text{
+  text-wrap: wrap;
+}
+
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.hero-main-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+
+a {
+    color: inherit; /* Hereda el color del texto del elemento padre */
+    text-decoration: none; /* Quita la línea debajo del enlace */
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+}
+
+.header-img{
+    width: 300px;
+}
+
+/* Segundo DIV */
+
+.content-two{
+    flex-grow: 1;
+}
+.random-title{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.flex-content-two{
+    justify-content: center;
+    gap: 20px
+}
+
+.img-text{
+    align-items: center;
+    justify-content: center;
+}
+
+.castle-img{
+    width: 100px;
+    border: 3px #3882f6 solid;
+}
+
+/* Tercer Div */
+.content-two{
+    background-color: #e5e7eb;
+    flex-grow: 1;
+}
+
+.autor-text{
+    align-self: flex-end;
+}
+
+.motivational-text{
+    text-align: justify;
+}
+/* Cuarto Div */
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.call-to-action{
+    background-color: #3882f6;
+    color: white;
+    gap: 100px;
+    padding: 5px 80px;
+    border-radius: 8px;
+}
+
+.call-to-action-btn{
+    border: 1px solid white;
+    flex-grow: 0;
+}
+
+button{
+    border-radius: 5px;
+}
+
+.footer-text{
+    text-wrap: wrap;
+}
+
+
+
+
+
+
 
